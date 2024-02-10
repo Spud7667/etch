@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.wrapper {
+    display: flex;
+    max-width: 600px;
+    max-height: 600px;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+div.grid {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: solid 1px;
+    background: none;
+}
+
+div.green {
+    background: greenyellow;
+    color: greenyellow;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: solid 1px;
+}
