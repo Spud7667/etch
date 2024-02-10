@@ -32,7 +32,7 @@ div.grid {
     display: flex;
     width: 16px;
     height: 16px;
-    border: solid 1px;
+    border: solid white 1px;
     background: none;
 }
 

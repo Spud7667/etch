@@ -75,8 +75,8 @@ function green() {
     document.querySelector(".wrapper").addEventListener("mouseover", function(event) {
         if(event.target.classList.contains("grid")) {
             event.target.classList.replace("grid", "green");
-        } else if (event.target.classList.contains("green")) {
-            event.target.classList.replace("green", "grid");
+        // } else if (event.target.classList.contains("green")) {
+        //     event.target.classList.replace("green", "grid");
         }
     })    
 }
