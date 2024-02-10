@@ -45,3 +45,21 @@ function getNewValue() {
     }
     createNew(value);
 }
+
+function erasePad() {
+    let gridValue =  {
+        green: document.querySelectorAll("div.green").length
+    
+    };
+    console.log(gridValue)
+    if(gridValue.green > 0) {
+        document.querySelectorAll("div.green").forEach(element => {
+            element.classList.replace("green", "grid")
+        })
+    }
+}
+
+document.querySelector("p.erase").addEventListener("click", () => {
+    erasePad();
+   
+});
