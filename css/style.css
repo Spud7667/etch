@@ -1,9 +1,19 @@
 body {
     display: flex;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #eee;
+    margin-right: 50px;
 }
 
 div.wrapper {
@@ -15,6 +25,7 @@ div.wrapper {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background: whitesmoke;
 }
 
 div.grid {
@@ -32,4 +43,129 @@ div.green {
     width: 16px;
     height: 16px;
     border: solid 1px;
+}
+
+div.red {
+    background: red;
+    color: red;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: solid 1px;
+}
+
+
+p.button, p.erase {
+    display: flex;
+    background: #335c56;
+    color: white;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+p.button:hover, p.erase:hover {
+    background: #20423d;
+    color: rgb(182, 182, 182);
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    max-height: 400px;
+    background: whitesmoke;
+    flex-direction: column;
+    align-self: center;
+    border: solid 1px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    gap: 5px;
+}
+
+p.green {
+    background: greenyellow;
+    color: black;
+    border: solid 1px black;
+    border-radius: 999999px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+p.green:hover {
+    background: rgba(172, 255, 47, 0.493);
+    color: black;
+    border: solid 1px black;
+    border-radius: 999999px;
+    padding: 5px 15px;
+}
+
+p.red {
+    background: rgb(255, 47, 47);
+    color: black;
+    border: solid 1px black;
+    border-radius: 999999px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+p.red:hover {
+    background: rgba(255, 47, 47, 0.493);
+    color: black;
+    border: solid 1px black;
+    border-radius: 999999px;
+    padding: 5px 15px;
+}
+
+div.footerwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    color: #636363;
+}
+
+div.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    color: #636363;
+    gap: 5px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+div.footerwrap p, a {
+    margin: 0;
+}
+
+span {
+    color: red;
+}
+
+div.footerwrap a, div.socials a {
+    text-decoration: none;
+    color: #636363;
+    font-weight: bolder;
+}
+
+div.footerwrap a:hover, div.socials a:hover {
+    color: #333;
+}
+
+a.github, a.linkedIn, a.discord, a.mail {
+    font-size: 16px;
+    margin-top: 20px;
 }

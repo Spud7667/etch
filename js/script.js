@@ -1,11 +1,13 @@
-document.querySelector(".wrapper").addEventListener("mouseover", function(event) {
-    if(event.target.classList.contains("grid")) {
-        event.target.classList.replace("grid", "green");
-    } else if (event.target.classList.contains("green")) {
-        event.target.classList.replace("green", "grid");
-    }
+// Add functionallity to change color with button-press (ex red, white, black, orange)
+
+
+document.querySelector("p.green").addEventListener("click", () => {
+    green();
 })
 
+// document.querySelector("p.red").addEventListener("click", () => {
+//     red();
+// })
 
 for(let i = 0; i < 1089; i++) {
 
@@ -63,3 +65,23 @@ document.querySelector("p.erase").addEventListener("click", () => {
     erasePad();
    
 });
+
+function green() {
+    document.querySelector(".wrapper").addEventListener("mouseover", function(event) {
+        if(event.target.classList.contains("grid")) {
+            event.target.classList.replace("grid", "green");
+        } else if (event.target.classList.contains("green")) {
+            event.target.classList.replace("green", "grid");
+        }
+    })    
+}
+
+// function red() {
+//     document.querySelector(".wrapper").addEventListener("mouseover", function(event) {
+//         if(event.target.classList.contains("grid")) {
+//             event.target.classList.replace("grid", "red");
+//         } else if (event.target.classList.contains("red")) {
+//             event.target.classList.replace("red", "grid");
+//         }
+//     })    
+// }
