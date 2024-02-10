@@ -169,3 +169,12 @@ a.github, a.linkedIn, a.discord, a.mail {
     font-size: 16px;
     margin-top: 20px;
 }
+
+span.info {
+    color: white;
+}
+
+p.info {
+    text-align: center;
+    font-size: 12px;
+}

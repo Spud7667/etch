@@ -1,9 +1,14 @@
 // Add functionallity to change color with button-press (ex red, white, black, orange)
 
+// let classes = ["green", "red"]
 
 document.querySelector("p.green").addEventListener("click", () => {
     green();
 })
+
+// document.querySelector("p.red").addEventListener("click", () => {
+//     red();
+// })
 
 // document.querySelector("p.red").addEventListener("click", () => {
 //     red();
@@ -80,8 +85,8 @@ function green() {
 //     document.querySelector(".wrapper").addEventListener("mouseover", function(event) {
 //         if(event.target.classList.contains("grid")) {
 //             event.target.classList.replace("grid", "red");
-//         } else if (event.target.classList.contains("red")) {
-//             event.target.classList.replace("red", "grid");
+//         } else if (event.target.classList.contains(classes)) {
+//             event.target.classList.replace(classes, "grid");
 //         }
 //     })    
 // }
