@@ -1,18 +1,8 @@
-// Add functionallity to change color with button-press (ex red, white, black, orange)
-
-// let classes = ["green", "red"]
+// let colors = ["green", "red"]
 
 document.querySelector("p.green").addEventListener("click", () => {
     green();
 })
-
-// document.querySelector("p.red").addEventListener("click", () => {
-//     red();
-// })
-
-// document.querySelector("p.red").addEventListener("click", () => {
-//     red();
-// })
 
 for(let i = 0; i < 1089; i++) {
 
