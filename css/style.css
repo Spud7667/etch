@@ -54,6 +54,13 @@ div.red {
     border: solid 1px;
 }
 
+div.random {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: solid 1px;
+}
+
 
 p.button, p.erase {
     display: flex;
@@ -122,6 +129,22 @@ p.red:hover {
     padding: 5px 15px;
 }
 
+p.random {
+    background: rgb(0, 0, 0);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 999999px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+p.random:hover {
+    background: rgb(61, 61, 61);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 999999px;
+    padding: 5px 15px;
+}
+
 div.footerwrap {
     display: flex;
     flex-direction: column;
@@ -177,4 +200,36 @@ span.info {
 p.info {
     text-align: center;
     font-size: 12px;
+}
+
+.r {
+    color: red;
+}
+
+.a {
+    color: rgb(255, 163, 178);
+}
+
+.i {
+    color: rgb(94, 255, 0);
+}
+
+.n {
+    color: rgb(252, 201, 106);
+}
+
+.b {
+    color: rgb(255, 246, 125);
+}
+
+.o {
+    color: turquoise;
+}
+
+.w {
+    color: teal;
+}
+
+p.etch {
+    font-weight: bold;
 }
